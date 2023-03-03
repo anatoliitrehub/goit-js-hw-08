@@ -20,4 +20,4 @@ galleryItems.forEach(el=>{
 });
 
 let simpleGallery = new SimpleLightbox('.gallery__link',{captionsData:'alt', captionDelay:250});
-    simpleGallery.on('show.simplelightbox');
+   // simpleGallery.on('show.simplelightbox'); // dont need this
